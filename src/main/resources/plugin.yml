@@ -1,0 +1,13 @@
+name: QSetTimer
+version: '${version}'
+main: pastelito.qsettimer.QSetTimer
+api-version: 1.18
+commands:
+  addtimer:
+    description: Add a timer
+    usage: /addtimer <seconds>
+    permission: qsettimer.addtimer
+  stoptimer:
+    description: Stop a timer
+    usage: /stoptimer
+    permission: qsettimer.stoptimer
